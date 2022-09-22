@@ -1,0 +1,70 @@
+.imagebox {
+  height: 785px;
+  position: relative;
+  padding: 100px 0;
+  &::after {
+    content: "";
+    background: #f5f1f0;
+    position: absolute;
+    width: 550px;
+    height: 100%;
+    right: 0;
+    top: 0;
+  }
+
+  &__prod {
+    top: 40px;
+    width: 580px;
+    height: 700px;
+    background-image: url(https://assets.website-files.com/5d89d4faecc118086c3813ec/5d89d6a2b4e4f7e981fb75a6_slider2.jpg);
+    background-position: center;
+    background-size: contain;
+  }
+  &__woman {
+    height: 380px;
+    width: 380px;
+    background-image: url(https://assets.website-files.com/5d89d4faecc118086c3813ec/5d89d6a2b4e4f719e9fb75b0_2534648.jpg);
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    background-repeat: no-repeat;
+    right: 0;
+    z-index: 3;
+    bottom: 0;
+  }
+  &__title {
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    background: white;
+    h2 {
+      font-family: "Playfair Display", serif;
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__scroller__title {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: 8;
+    top: 0;
+    h1 {
+      font-size: 200px;
+      text-transform: uppercase;
+      color: #fbfbfb;
+      font-weight: bold;
+    }
+  }
+}

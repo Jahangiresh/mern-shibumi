@@ -1,0 +1,16 @@
+.features {
+  padding: 73px;
+  margin: 200px 0;
+  @media (max-width: 992px) {
+    margin: 40px 0;
+  }
+  h2 {
+    font-size: 36px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    color: #333333;
+  }
+  @media (min-width: 992px) {
+    border-right: 1px solid #e3e3e3;
+  }
+}

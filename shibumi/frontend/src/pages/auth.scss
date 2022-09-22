@@ -1,0 +1,79 @@
+.auth {
+  background-image: url(https://img.freepik.com/premium-photo/organic-cosmetic-products-with-green-leaves-wooden-background-flat-lay_79075-17932.jpg?w=2000);
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  // height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 100px;
+
+  &__content {
+    transition: 0.5s linear;
+    padding: 0 30px 70px 30px;
+    text-align: center;
+    width: 600px;
+    backdrop-filter: blur(5px) saturate(30%);
+    background-color: rgba(17, 25, 40, 0);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    &__main {
+      transition: 0.6s linear;
+    }
+    &__header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row-reverse;
+      h1 {
+        color: black;
+      }
+      &__image {
+        height: 200px;
+        width: 200px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .field__inp {
+      background: transparent;
+      color: white;
+      border-right: none;
+      border-left: none;
+      border-top: none;
+
+      outline: none;
+      padding: 10px 0;
+    }
+    .register__btn {
+      padding: 10px 0;
+      outline: none;
+      border: none;
+      transition: 0.2s linear;
+      &:hover {
+        background: rgba(255, 255, 255, 0.301);
+      }
+    }
+  }
+
+  .formik__class {
+    display: flex;
+    flex-direction: column;
+    span {
+      text-align: left;
+      color: white;
+    }
+    .field__inp {
+      margin-bottom: 20px;
+    }
+  }
+}

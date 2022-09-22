@@ -1,0 +1,103 @@
+.singleproduct {
+  &__container {
+    &__row {
+      .css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root {
+        padding: 0;
+      }
+      .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+        box-shadow: none;
+      }
+      @media (min-width: 992px) {
+        height: 700px;
+      }
+      &__left {
+        object-fit: contain;
+        height: 100%;
+        padding: 0 70px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      &__right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        span {
+          font-family: "DM Serif Display", sans-serif;
+          color: #8b6d4b;
+          font-size: 32px;
+          line-height: 1;
+          font-weight: 400;
+        }
+        h1 {
+          font-size: 50px;
+          font-family: "Playfair Display", serif;
+          font-weight: bold;
+          color: #333333;
+          margin-top: 20px;
+          @media (max-width: 992px) {
+            font-size: 30px;
+          }
+        }
+        p {
+          margin-bottom: 10px;
+          font-size: 20px;
+          line-height: 1.5;
+          font-weight: 300;
+        }
+        &__inputs {
+          width: 270px;
+
+          .status__row {
+            font-size: 20px;
+            text-transform: lowercase;
+            .status__span {
+              font-size: 20px;
+              margin-left: 10px;
+            }
+          }
+          &__cart {
+            display: flex;
+            width: 100%;
+            height: 60px;
+            margin: 40px 0;
+            // margin-top: 40px;
+            button {
+              flex: 0 auto;
+              width: 100%;
+              border: none;
+              background-color: #8b6d4b;
+              transition: transform 400ms ease-in-out;
+              color: #fff;
+              font-size: 18px;
+              font-weight: 200;
+              text-align: center;
+            }
+            input {
+              // border: none;
+              //   width: 100px;
+              height: 100%;
+              margin-right: 5px;
+              width: 80px;
+              border-radius: 0px;
+            }
+          }
+          #select {
+            display: block;
+            width: 100%;
+            height: 60px;
+            padding: 8px 12px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #333333;
+            vertical-align: middle;
+            background-color: #ffffff;
+            border: 1px solid #cccccc;
+          }
+        }
+      }
+    }
+  }
+}

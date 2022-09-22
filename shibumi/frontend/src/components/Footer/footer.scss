@@ -1,0 +1,56 @@
+.footer {
+  // height: 527px;
+  padding: 100px 20px;
+
+  &__container {
+    &__row {
+      &__col {
+        h3 {
+          font-size: 24px;
+          font-weight: bold;
+          font-family: "Playfair Display", serif;
+          margin-bottom: 20px;
+        }
+        .footeremail {
+          border: none;
+          outline: none;
+          border-bottom: 1px solid #696969;
+        }
+        button {
+          background-color: #8b6d4b;
+          transition: transform 400ms ease-in-out;
+          color: #fff;
+          font-size: 18px;
+          font-weight: 200;
+          text-align: center;
+          cursor: pointer;
+          padding: 20px 80px;
+          margin-top: 30px;
+          border: none;
+          outline: none;
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          li {
+            list-style: none;
+            transition: 0.2s ease;
+            cursor: pointer;
+            line-height: 40px;
+            .footerlinks {
+              text-decoration: none;
+              color: #696969;
+            }
+            &:hover {
+              margin-left: 7px;
+            }
+            a {
+              color: #696969;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

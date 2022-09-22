@@ -1,0 +1,96 @@
+.menuslider {
+  // margin-top: 70px;
+  height: 100vh;
+  position: fixed;
+  right: -100%;
+  width: 100%;
+  overflow: auto;
+  background: #121212;
+  z-index: 14;
+  transition: 0.2s ease-in-out;
+
+  &__container {
+    height: 100%;
+    &__row {
+      display: flex;
+      @media (max-width: 850px) {
+        justify-content: center;
+      }
+      &__ul {
+        padding: 100px 0 0 100px;
+        @media (max-width: 850px) {
+          padding: 80px 0 0 0;
+          width: 90%;
+        }
+      }
+      &__right {
+        background-image: url(https://assets.website-files.com/5d89d4faecc118086c3813ec/5d8a11e4c18e335469385a03_product1.jpg);
+        background-size: contain;
+        background-position: right;
+        background-repeat: no-repeat;
+
+        height: 100vh;
+        transition: 0.2s ease-in-out;
+        // width: 0;
+        opacity: 0;
+        visibility: hidden;
+        margin-left: 500px;
+        @media (max-width: 850px) {
+          display: none;
+        }
+      }
+      .right__active {
+        // width: 500px !important;
+        margin-left: 0;
+
+        opacity: 1 !important;
+        visibility: visible !important;
+        float: right;
+      }
+    }
+    .menuslider__ul {
+      margin: 0;
+      padding: 0 0 0 50px;
+      @media (max-width: 850px) {
+        padding: 0;
+      }
+      .copywrites {
+        font-size: 12px;
+        color: #8b6d4b;
+      }
+
+      li {
+        list-style: none;
+        margin-bottom: 40px;
+        color: white;
+        transition: 0.2s ease-in-out;
+        &:hover {
+          filter: brightness(50%);
+          margin: 4px 0 0 5px;
+        }
+        .links {
+          text-decoration: none;
+          color: white;
+        }
+        .search__input {
+          background: #121212;
+          border: none;
+          outline: none;
+          border-bottom: 1px solid white;
+          padding: 25px 0;
+          color: white;
+        }
+        h1 {
+          font-family: "Playfair Display", serif;
+          font-weight: bold;
+        }
+        p {
+          color: #8b6d4b;
+        }
+      }
+    }
+  }
+}
+.slideractive {
+  right: 0 !important;
+}

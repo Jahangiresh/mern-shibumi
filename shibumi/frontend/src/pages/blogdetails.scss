@@ -1,0 +1,99 @@
+.blogdetails {
+  .blogdetails__cover {
+    height: 577px;
+    width: 100%;
+    background-image: url(https://assets.website-files.com/5d89d502cbc3146c074657da/5d932f459461c30609050d75_postblog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    //   background-color: rgba(0, 0, 0, 0.2);
+    //   background-blend-mode: darken;
+    //   padding-top: 140px;
+    &__title {
+      h1 {
+        margin-top: 30px;
+        font-size: 24px;
+        font-family: "Playfair Display", serif;
+        text-align: center;
+        color: rgba(139, 109, 75, 0.9);
+        font-weight: bold;
+        @media (min-width: 992px) {
+          font-size: 56px;
+        }
+        @media (min-width: 768) {
+          font-size: 36px;
+        }
+      }
+    }
+    &__date {
+      width: max-content;
+      height: max-content;
+      padding: 10px 20px;
+      background-color: rgba(172, 152, 129, 0.438);
+      span {
+        color: white;
+      }
+    }
+  }
+  &__container {
+    padding: 80px 220px;
+
+    @media (max-width: 992px) {
+      padding: 80px 20px 0 20px;
+      &__desc {
+        h2 {
+          font-size: 22px !important;
+        }
+        h3 {
+          font-size: 20px !important;
+        }
+        p {
+          font-size: 16px !important;
+        }
+        blockquote {
+          font-size: 16px !important;
+        }
+      }
+    }
+    &__desc {
+      h2 {
+        color: #333333;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: "Playfair Display", serif;
+        font-size: 32px;
+        line-height: 1;
+        font-weight: 800;
+      }
+      blockquote {
+        color: #333333;
+
+        margin-bottom: 10px;
+        padding: 10px 20px;
+        border-left: 5px solid rgba(139, 109, 75, 0.5);
+        font-family: "Libre Franklin", sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+      }
+      h3 {
+        color: #333333;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: "Playfair Display", serif;
+        font-size: 26px;
+        line-height: 1;
+        font-weight: 800;
+      }
+      p {
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 300;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.contactinputs {
+  input {
+    display: flex;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    flex-direction: column;
+    padding: 20px 0;
+    width: 100%;
+    outline: none;
+    color: white;
+  }
+  textarea {
+    display: flex;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    flex-direction: column;
+    padding: 20px 0;
+    width: 100%;
+    outline: none;
+    color: white;
+
+  }
+  label {
+    color: white;
+  }
+  .button {
+    margin-top: 30px;
+    // padding: 20px 80px;
+    flex: 0 auto;
+    background-color: #8b6d4b;
+    transition: transform 400ms ease-in-out;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      background-color: #aa8a65;
+    }
+  }
+}

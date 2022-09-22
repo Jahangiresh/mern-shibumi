@@ -1,0 +1,10 @@
+.messagebox {
+  // height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  &__alert {
+    width: 100%;
+    text-align: center;
+  }
+}

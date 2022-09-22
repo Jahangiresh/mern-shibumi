@@ -1,0 +1,172 @@
+.about {
+  background-image: url(https://assets.website-files.com/5d89d4faecc118086c3813ec/5d8a11e6ecc118bb3a3c5641_paje-victoria-ohhEOp05h4g-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+
+  @media (min-width: 992px) {
+    &__row {
+      height: 100vh;
+      .random__container {
+        height: 100%;
+        max-width: 700px;
+        float: right;
+      }
+      &__col {
+        height: 100%;
+
+        .about__container__slogan {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  .about__transparent {
+    height: 800px;
+    background: transparent;
+    padding: 0;
+  }
+  .random__container {
+    padding: 0 20px;
+  }
+  &__container {
+    background: #423d3f;
+  }
+  &__container__slogan {
+    color: white;
+    padding: 100px 30px;
+    h2 {
+      font-size: 30px;
+      font-family: "Playfair Display", serif;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+  }
+}
+.about2 {
+  background-image: url(https://assets.website-files.com/5d89d4faecc118086c3813ec/5d89d6a2b4e4f73ea1fb7595_product0.jpg);
+
+  background-position: center;
+  background-size: cover;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+
+  @media (min-width: 992px) {
+    &__row {
+      height: 100vh;
+      display: flex;
+      flex-direction: row-reverse;
+
+      .random__container {
+        height: 100%;
+        max-width: 700px;
+        float: left;
+      }
+      &__col {
+        height: 100%;
+
+        .about2__container__slogan {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  @media (max-width: 992px) {
+    &__row {
+      flex-direction: column-reverse;
+    }
+  }
+  .about2__transparent {
+    height: 800px;
+    background: transparent;
+    padding: 0;
+  }
+  .random__container {
+    padding: 0 20px;
+  }
+  &__container {
+    background: white;
+  }
+  &__container__slogan {
+    color: #000;
+    padding: 100px 30px;
+    h2 {
+      font-size: 30px;
+      font-family: "Playfair Display", serif;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+  }
+}
+.about3 {
+  background-image: url(https://assets.website-files.com/5d89d4faecc118086c3813ec/5d8b79a3243dbfa685954e93_joanna-kosinska-ToV0rS9nTYs-unsplash.jpg);
+  background-position: center;
+
+  background-size: cover;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+
+  @media (min-width: 992px) {
+    &__row {
+      height: 100vh;
+
+      .random__container {
+        height: 100%;
+        max-width: 700px;
+        float: right;
+      }
+      &__col {
+        height: 100%;
+
+        .about3__container__slogan {
+          height: 100%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  .about3__transparent {
+    height: 800px;
+    background: transparent;
+    padding: 0;
+    @media (max-width: 992px) {
+      display: none;
+    }
+  }
+  .random__container {
+    padding: 0 20px;
+  }
+  &__container {
+    background: #b9a79e;
+  }
+  &__container__slogan {
+    color: white;
+    padding: 100px 30px;
+    h2 {
+      font-size: 30px;
+      font-family: "Playfair Display", serif;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.checkout-steps > div {
+  border-bottom: 5px solid #a0a0a0;
+  color: #a0a0a0;
+}
+.checkout-steps > div.active {
+  border-bottom: 5px solid #fac17f;
+  color: #fac17f;
+}

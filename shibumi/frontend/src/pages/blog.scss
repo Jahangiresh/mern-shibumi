@@ -1,0 +1,255 @@
+.blog {
+  background: #000;
+  &__cover {
+    width: 100%;
+    height: 745px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    // background-image: url(https://assets.website-files.com/5d89d4faecc118086c3813ec/5d8b79a3243dbfa685954e93_joanna-kosinska-ToV0rS9nTYs-unsplash.jpg);
+  }
+  .latestposts__blog {
+    padding-bottom: 100px;
+  }
+  .latestposts {
+    background: #f7f7f7;
+    width: 100%;
+    &__container {
+      &__title {
+        text-align: center;
+        p {
+          text-transform: uppercase;
+          color: #333333;
+          font-size: 14px;
+        }
+        h2 {
+          font-size: 50px;
+          font-family: "Playfair Display", serif;
+          font-weight: bold;
+          text-transform: capitalize;
+        }
+      }
+      &__posts {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        &__col {
+          height: 500px;
+          width: 350px;
+          padding: 0;
+          background-image: url(https://assets.website-files.com/5d89d502cbc3146c074657da/5d8b30278c12c734193c9a11_1.jpg);
+          background-size: cover;
+          background-position: center;
+          text-align: center;
+          position: relative;
+          &:hover {
+            &::after {
+              top: 0;
+              left: 0;
+              opacity: 1;
+              visibility: visible;
+            }
+            .post__title {
+              margin-top: 40%;
+              span {
+                .link {
+                  top: 70%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  opacity: 1;
+                  visibility: visible;
+                }
+              }
+            }
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: -40px;
+            left: -40px;
+            background: rgba(0, 0, 0, 0.459);
+            transition: 0.3s ease-in-out;
+            opacity: 0;
+            z-index: 0;
+            visibility: hidden;
+          }
+          .post__title {
+            transition: 0.5s ease-in-out;
+            h2 {
+              font-size: 40px;
+              font-weight: bold;
+              font-family: "Playfair Display", serif;
+              color: white;
+              margin-top: 30px;
+            }
+            p {
+              color: white;
+              font-size: 14px;
+            }
+            span {
+              .link {
+                position: absolute;
+                z-index: 7;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                transition: 0.6s ease-in-out;
+                opacity: 0;
+                visibility: hidden;
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+
+        &__col2 {
+          height: 500px;
+          width: 350px;
+          padding: 0;
+          background-image: url(https://assets.website-files.com/5d89d502cbc3146c074657da/5d8b30463cb747520a27cbac_2.jpg);
+          background-size: cover;
+          background-position: center;
+          text-align: center;
+          position: relative;
+          &:hover {
+            &::after {
+              top: 0;
+              left: 0;
+              opacity: 1;
+              visibility: visible;
+            }
+            .post__title {
+              margin-top: 40%;
+              span {
+                .link {
+                  top: 70%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  opacity: 1;
+                  visibility: visible;
+                }
+              }
+            }
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: -40px;
+            left: -40px;
+            background: rgba(0, 0, 0, 0.459);
+            transition: 0.3s ease-in-out;
+            opacity: 0;
+            z-index: 0;
+            visibility: hidden;
+          }
+          .post__title {
+            transition: 0.5s ease-in-out;
+            h2 {
+              font-size: 40px;
+              font-weight: bold;
+              font-family: "Playfair Display", serif;
+              color: white;
+              margin-top: 30px;
+            }
+            p {
+              color: white;
+              font-size: 14px;
+            }
+            span {
+              .link {
+                position: absolute;
+                z-index: 7;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                transition: 0.6s ease-in-out;
+                opacity: 0;
+                visibility: hidden;
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+
+        &__col3 {
+          height: 500px;
+          width: 350px;
+          padding: 0;
+          background-image: url(https://assets.website-files.com/5d89d502cbc3146c074657da/5d8b30bc08d7f8328760a876_3.jpg);
+          background-size: cover;
+          background-position: center;
+          text-align: center;
+          position: relative;
+          &:hover {
+            &::after {
+              top: 0;
+              left: 0;
+              opacity: 1;
+              visibility: visible;
+            }
+            .post__title {
+              margin-top: 40%;
+              span {
+                .link {
+                  top: 70%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  opacity: 1;
+                  visibility: visible;
+                }
+              }
+            }
+          }
+          &::after {
+            content: "";
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: -40px;
+            left: -40px;
+            background: rgba(0, 0, 0, 0.459);
+            transition: 0.3s ease-in-out;
+            opacity: 0;
+            z-index: 0;
+            visibility: hidden;
+          }
+          .post__title {
+            transition: 0.5s ease-in-out;
+            h2 {
+              font-size: 40px;
+              font-weight: bold;
+              font-family: "Playfair Display", serif;
+              color: white;
+              margin-top: 30px;
+            }
+            p {
+              color: white;
+              font-size: 14px;
+            }
+            span {
+              .link {
+                position: absolute;
+                z-index: 7;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                transition: 0.6s ease-in-out;
+                opacity: 0;
+                visibility: hidden;
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

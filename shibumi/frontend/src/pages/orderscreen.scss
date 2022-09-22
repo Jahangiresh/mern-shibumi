@@ -1,0 +1,35 @@
+.item__row {
+  align-items: center;
+  &__image {
+    padding: 0 52px;
+    img {
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+.cartpage__container__row__left__items__row {
+  align-items: center;
+  &__image {
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.orderscreen__row {
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+  &__left {
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  &__right {
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}

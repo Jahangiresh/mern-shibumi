@@ -1,0 +1,80 @@
+.contact {
+  width: 100%;
+  background: #000 !important;
+  .contact__img {
+    width: 100% !important;
+
+    background-image: url(https://refaelhair.co.il/wp-content/uploads/2020/07/Image-7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    @media (min-width: 992px) {
+      height: 100vh;
+    }
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    // width: 100%;
+    &__row {
+      width: 100%;
+
+      @media (max-width: 992px) {
+        margin-top: 100px;
+      }
+      &__left {
+        &__content {
+          h2 {
+            font-weight: bold;
+            font-family: "Playfair Display", serif;
+            color: white;
+            font-size: 50px;
+
+            @media (min-width: 992px) {
+              font-size: 101px;
+            }
+          }
+          p {
+            font-size: 20px;
+            color: white;
+          }
+        }
+      }
+      &__right {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .contact__logo {
+          width: 129px;
+          margin-bottom: 20px;
+          img {
+            width: 100%;
+          }
+        }
+        .contact__ul {
+          padding: 0;
+          margin: 0;
+          li {
+            list-style: none;
+            font-size: 18px;
+            color: white;
+            margin-bottom: 40px;
+            .myFrame {
+              @media (max-width: 992px) {
+                width: 270px;
+              }
+            }
+          }
+        }
+        .contact__social__links {
+          color: white;
+          font-size: 20px;
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}

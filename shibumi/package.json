@@ -1,0 +1,13 @@
+{
+  "name": "noellefinal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"cd server && npm install && cd ../frontend && npm install && npm run build",
+    "start":"node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

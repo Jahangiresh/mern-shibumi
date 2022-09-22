@@ -1,0 +1,104 @@
+.shop {
+  &__cover {
+    background-image: url(https://assets.website-files.com/5d89d4faecc118086c3813ec/5d8a11e4b4e4f75099ff947b_productcream.jpg);
+    height: 522px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  &__container {
+    &__search {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+        margin: 0;
+        width: 100% !important;
+      }
+    }
+    &__products {
+      justify-content: space-between;
+    }
+    &__categories {
+      justify-content: center;
+      margin: 40px 0;
+      .priceslider {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        margin-top: 30px;
+        span {
+          font-weight: bolder;
+          font-size: 15px;
+          color: #333;
+        }
+
+        .css-1gv0vcd-MuiSlider-track {
+          height: 1px;
+        }
+        .css-14pt78w-MuiSlider-rail {
+          height: 1px;
+        }
+        .MuiSlider-thumb {
+          border-radius: 0%;
+          color: transparent;
+          border: 2px solid black;
+          outline: none !important;
+        }
+        .priceslider__values {
+          font-weight: 200;
+          width: 180px;
+          display: flex;
+          justify-content: space-between;
+        }
+        @media (max-width: 610px) {
+          flex-direction: column;
+          align-items: center;
+          gap: 0;
+        }
+      }
+
+      h2 {
+        text-align: center;
+      }
+      &__ul {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        gap: 20px;
+        justify-content: center;
+        @media (max-width: 650px) {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        li {
+          border: 1px solid #cbc3bc;
+          width: 150px;
+          height: 50px;
+          list-style: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          color: #cbc3bc;
+          gap: 10px;
+        }
+      }
+    }
+    &__title {
+      text-align: center;
+      padding-top: 100px;
+      .discover {
+        font-size: 32px;
+        font-weight: bold;
+        font-family: "Playfair Display", serif;
+      }
+      .shibumi {
+        font-size: 50px;
+        font-weight: bold;
+        font-family: "Playfair Display", serif;
+      }
+    }
+  }
+}

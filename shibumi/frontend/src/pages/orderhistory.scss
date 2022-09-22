@@ -1,0 +1,20 @@
+@media (max-width: 768px) {
+  .order__table {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .order__head {
+    display: none;
+  }
+  .order__btn {
+    padding: 0;
+  }
+}
+.order__btn {
+  border: 0px;
+  background: #8b6d4b;
+  &:hover {
+    background: #3e3122;
+  }
+}
